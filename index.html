@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+     <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.bootstrap-autohidingnavbar.min.js"></script>
+    <script src="js/jquery.vide.min.js"></script>
+    <script src="js/animatescroll.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="greensock/TweenMax.min.js"></script>
+    <script src="greensock/CSSPlugin.min.js"></script>
+    <script src="greensock/EasePack.min.js"></script>
+    <script src="js/_custom.js"></script>
+    <script>
+       $(function(){
+         $('#video').vide({ mp4: 'videos/intro', webm: 'videos/intro', ogv: 'videos/intro', poster: 'videos/poster'}, {
+        loop: true, muted: false, position: '0% 50%'
+        });  
+       });
+    </script>
+    <script>
+       $(function(){ 
+            $(window).scroll(function(){
+                if($(this).scrollTop()>250){
+                    $('nav#moveNav').addClass('fixed-top cool');
+                    $('nav#moveNav').autoHidingNavbar();
+                }else{
+                    $('nav#moveNav').removeClass('fixed-top cool');
+                }
+            });
+        });  
+    </script>
+     <script>
+        new WOW().init();
+    </script>
+  </head>
+  
+  <body>
+    <header id="inicio" class="py-3">
+         <div class="container">
+             <div class="col"><img src="img/logo_header.png" class="img-fluid mx-auto d-block" id="logo_header" alt=""></div>
+        </div>
+    </header>
+    
+      <section id="nav">
+            <div class="container">
+                <nav id="moveNav" class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand" href="#" onclick="$('header').animatescroll({scrollSpeed:2000,easing:'easeOutQuart',padding:0});"><img src="img/netfire_Nav.png" alt=""></a>
+             
+             
+				  
+              <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+                  <ul class="navbar-nav mr-auto">
+					<li class="nav-item ">
+						<a class="nav-link" href="http://soluciones.gnetfire.com" target="_blank" id="soluciones">Soluciones</a>
+					</li>
+    			 </ul>  
+                <ul class="navbar-nav mt-2 mt-md-0">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#" onclick="$('header').animatescroll({scrollSpeed:2000,easing:'easeOutQuart',padding:0});">Grupo Netfire</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="$('#nosotros').animatescroll({scrollSpeed:2000,easing:'easeOutQuart',padding:60});">Acerca De</a>
+                  </li>
+                   <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="$('#servicios').animatescroll({scrollSpeed:2000,easing:'easeOutQuart',padding:60});">Servicios</a>
+                  </li>
+                   <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="$('#lineas').animatescroll({scrollSpeed:2000,easing:'easeOutQuart',padding:60});">Linea De Negocios</a>
+                  </li>
+                   <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="$('#aliados').animatescroll({scrollSpeed:2000,easing:'easeOutQuart',padding:60});">Aliados De Negocios</a>
+                  </li>
+                   <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="$('#contacto').animatescroll({scrollSpeed:2000,easing:'easeOutQuart',padding:0});">Contacto</a>
+                  </li> 
+                  
+                </ul>
+              </div>
+            </nav>
+               </div>
+         </section>   
+        
+   
+    <section id="video" class="hidden-sm-down">
+        <div id="animationtxt">
+            <h2 class="txtAnimate" id="txt1">
+            <img src="img/nube.png" width="80" alt="" class="d-block mx-auto">Administración de la plataforma Microsoft y de las Aplicaciones</h2>
+            <h2 class="txtAnimate" id="txt2">
+            <img src="img/informacion.png" width="80" alt="" class="d-block mx-auto">Administración de la Información</h2>
+            <h2 class="txtAnimate" id="txt3">
+            <img src="img/virtualizacion.png" width="80" alt="" class="d-block mx-auto">Virtualización de Datos</h2>
+            <h2 class="txtAnimate" id="txt4">
+            <img src="img/seguridad.png" width="80" alt="" class="d-block mx-auto">Seguridad de la información</h2>
+            <h2 class="txtAnimate" id="txt5">
+            <img src="img/hardware.png" width="80" alt="" class="d-block mx-auto">Cómputo Empresarial, Almacenamiento y Redes</h2>
+        </div>
+    </section>
+    <section id="banner" class="hidden-md-up">
+        <div id="animationtxt-m">
+            <h2 class="txtAnimate-m" id="txt1m">
+            <img src="img/nube.png" width="80" alt="" class="d-block mx-auto">Administración de la plataforma Microsoft y de las Aplicaciones</h2>
+            <h2 class="txtAnimate-m" id="txt2m">
+            <img src="img/informacion.png" width="80" alt="" class="d-block mx-auto">Administración de la Información</h2>
+            <h2 class="txtAnimate-m" id="txt3m">
+            <img src="img/virtualizacion.png" width="80" alt="" class="d-block mx-auto">Virtualización de Datos</h2>
+            <h2 class="txtAnimate-m" id="txt4m">
+            <img src="img/seguridad.png" width="80" alt="" class="d-block mx-auto">Seguridad de la información</h2>
+            <h2 class="txtAnimate-m" id="txt5m">
+            <img src="img/hardware.png" width="80" alt="" class="d-block mx-auto">Cómputo Empresarial, Almacenamiento y Redes</h2>
+        </div>
+    </section>  
+  
+    <section id="nosotros" class="mt-5">
+        <div class="container">
+          <h2 class="text-center pt-3">Acerca de Grupo NetFire</h2>
+                <hr class="line">
+           <div class="row pt-5">
+                
+                 <div class="col-12 col-md-6 mb-3 wow fadeInUp" data-wow-offset="50">
+                    <img src="img/nosotros_img.jpg" class="img-fluid mx-auto d-block" alt="Nosotros">
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-12 pb-3 wow fadeInUp" data-wow-offset="50" >
+                            <p>El cómputo en la nube, las transacciones móviles y los quintillones de bytes que se producen diariamente son una realidad. Tienes que salir de tu zona de confort para responder ante esos retos de negocio. Podemos comenzar viendo a la TI como un motor para la innovación en vez de solo mantenerla en funcionamiento. Cuando vez como puede ser un generador de ingresos, la Transformación Digital te dará el poder de aumentar la velocidad, agilidad y efectividad a través del Internet de las Cosas, la seguridad y en análisis de datos.</p>
+                            <p>La necesidad de convertirte en un líder digital es provocada por tus clientes y empleados. Ellos te piden servicios bajo demanda, seguridad y personalización. En Grupo Netfire te brindamos la tecnología para que logres satisfacer esas necesidades con productos de clase mundial, servicios y soluciones a tu medida.</p>
+                        </div>
+                        <div class="col-6 hidden-md-down wow fadeInUp" data-wow-offset="50">
+                           <div class="media pb-3">
+                              <img class="d-flex mr-3" src="img/mision_icon.png" alt="Visión Genetfire">
+                              <div class="media-body">
+                                <h4 class="mt-0">Misión</h4>
+                              </div>
+                            </div>        
+                            <p>Ofertar soluciones y servicios reales de TI para la IP y el gobierno, que satisfagan sus necesidades y excedan sus expectativas generando valor a través de la excelencia en nuestros productos y servicios.</p>
+                        </div>
+                        <div class="col-6 hidden-md-down wow fadeInUp" data-wow-offset="50">
+                           <div class="media pb-3">
+                              <img class="d-flex mr-3" src="img/vision_icon.png" alt="Visión Genetfire">
+                              <div class="media-body">
+                                <h4 class="mt-0">Visión</h4>
+                              </div>
+                            </div> 
+                            <p>Ser una empresa exitosa enfocada en la entrega de soluciones valiosas y con impacto al negocio; estableciendo relaciones de largo plazo con nuestros colaboradores, clientes y socios de negocio.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 hidden-lg-up wow fadeInUp" data-wow-offset="50">
+                     <div class="row" data-wow-offset="50">
+                           <div class="col-6">
+                               <div class="media pb-3">
+                                  <img class="d-flex mr-3" src="img/mision_icon.png" alt="Visión Genetfire">
+                                  <div class="media-body">
+                                    <h4 class="mt-0">Misión</h4>
+                                  </div>
+                                </div>        
+                                <p>Ofertar soluciones y servicios reales de TI para la IP y el gobierno, que satisfagan sus necesidades y excedan sus expectativas generando valor a través de la excelencia en nuestros productos y servicios.</p>
+                            </div>
+                            <div class="col-6">
+                               <div class="media pb-3">
+                                  <img class="d-flex mr-3" src="img/vision_icon.png" alt="Visión Genetfire">
+                                  <div class="media-body">
+                                    <h4 class="mt-0">Visión</h4>
+                                  </div>
+                                </div> 
+                                <p>Ser una empresa exitosa enfocada en la entrega de soluciones valiosas y con impacto al negocio; estableciendo relaciones de largo plazo con nuestros colaboradores, clientes y socios de negocio.</p>
+                            </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   <section id="servicios" class="mt-5">
+        <div class="container">
+          <h2 class="text-center pt-3">Servicios Profesionales</h2>
+                <hr class="line">
+            <h4 class="text-center text-muted pt-0 mb-4">¿Qué hacemos?</h4>
+           <div class="row mt-5">
+               <div class="col-12 col-md-4 wow fadeInUp" data-wow-offset="50">
+                   <div class="media pb-3">
+                      <img class="d-flex align-self-center mr-3" src="img/implementacion.png" alt="Implementación">
+                      <div class="media-body">
+                        <h4 class="mt-2 font-weight-bold font-3">Implementación</h4>
+                      </div>
+                    </div>
+                    <p class="text-muted">Nuestros servicios tienen como objetivo la implementación exitosa de diversas tecnologías de acuerdo a las necesidades del cliente al menor costo posible.</p> 
+               </div>
+               <div class="col-12 col-md-4 wow fadeInUp" data-wow-offset="50">
+                   <div class="media pb-3">
+                      <img class="d-flex align-self-center mr-3" src="img/administracion.png" alt="Administración">
+                      <div class="media-body">
+                        <h4 class="mt-2 font-weight-bold font-3">Servicios Administrados</h4>
+                      </div>
+                    </div>
+                    <p class="text-muted">La solución de servicios administrados es un paquete completo para garantizarle al cliente una solución con niveles de servicio, algunas de las actividades incluidas son:</p>
+                        <ul>
+                            <li>Verificación del estado de los productos.</li>
+                            <li>Configuración de los productos.</li>
+                            <li>Pruebas de funcionalidad.</li>
+                            <li>Optimización de los productos.</li>
+                            <li>Soporte Técnico Telefónico, Soporte Técnico Vía Correo Electrónico y Soporte Técnico en Sitio.</li>
+                        </ul>
+               </div>
+               <div class="col-12 col-md-4 wow fadeInUp" data-wow-offset="50">
+                    <div class="media pb-3">
+                      <img class="d-flex align-self-center mr-3" src="img/soporte.png" alt="Implementación">
+                      <div class="media-body">
+                        <h4 class="mt-2 font-weight-bold font-3">Soporte Técnico</h4>
+                      </div>
+                    </div>
+                    <p class="text-muted">Nuestros servicios tienen como objetivo la implementación exitosa de diversas tecnologías de acuerdo a las necesidades del cliente al menor costo posible.</p> 
+               </div>
+            </div>
+       </div>
+    </section>
+   
+<!--------- Sección de Linea de Negocios ---------->   
+   <section id="lineas" class="mt-5">
+        <div class="container">
+          <h2 class="text-center pt-3">Linea de Negocios</h2>
+                <hr class="line">
+          
+            <div class="row py-5">
+            <div class="col-6 col-md-4 text-center wow fadeInUp" data-wow-offset="50">
+                <a href="administracion.html"><img src="img/nube.png" class="img-fluid my-3" width="120" alt=""></a>
+                <a href="administracion.html"><h5 class="text-muted">Administración de la plataforma Microsoft y de las Aplicaciones</h5></a>
+            </div>
+            <div class="col-6 col-md-4 text-center wow fadeInUp" data-wow-offset="50">
+                <a href="informacion.html"><img src="img/informacion.png" class="img-fluid my-3" width="120" alt=""></a>
+                <a href="informacion.html"><h5 class="text-muted">Administración de la Información</h5></a>
+            </div>
+            <div class="col-6 col-md-4 text-center wow fadeInUp" data-wow-offset="50">
+                <a href="virtualizacion.html"><img src="img/virtualizacion.png" class="img-fluid my-3" width="120" alt=""></a>
+                <a href="virtualizacion.html"><h5 class="text-muted">Virtualización de Datos</h5></a>
+            </div>
+            <div class="col-6 col-md-4 offset-md-2 text-center wow fadeInUp" data-wow-offset="50">
+                <a href="seguridad.html"><img src="img/seguridad.png" class="img-fluid my-3" width="120" alt=""></a>
+                <a href="seguridad.html"><h5 class="text-muted">Seguridad y el Análisis de Datos</h5></a>
+            </div>
+            <div class="col-12 col-md-4 text-center wow fadeInUp" data-wow-offset="50">
+                <a href="hardware.html"><img src="img/hardware.png" class="img-fluid my-3" width="120" alt=""></a>
+                <a href="hardware.html"><h5 class="text-muted">Cómputo Empresarial, Almacenamiento y Redes</h5></a>
+            </div>
+            
+            </div>
+       </div>
+    </section>   
+   
+   
+<!--------- Sección de Aliados de Negocios ---------->   
+   <section id="aliados">
+        <div class="container">
+          <h2 class="text-center pt-5">Aliados de Negocios</h2>
+                <hr class="line">
+            <div class="row py-5">
+                <div class="col-12 col-md-5 col-lg-5 wow fadeInUp" data-wow-offset="50">
+                    <blockquote class="blockquote">
+  <p class="mb-0  roboto"><span class="pl-2 h3">E</span>n los últimos años, una serie de avances en las tecnologías de información ha permitido crear sistemas más sofisticados y más seguros. Tenemos a su disposición soluciones de TI a la medida de sus necesidades, nuestras soluciones abarcan seguridad, monitoreo, optimización e infraestructura entre otras. Quienes aportan su experiencia y conocimiento con las mejores prácticas de negocio durante la implementación de soluciones.</p>
+</blockquote>
+                </div>
+                <div class="col-12 col-md-7 col-lg-6 offset-lg-1 wow fadeInUp" data-wow-offset="50">
+            <div class="row justify-content-center">
+                <div class="col-4">
+                  <a href="http://www.cisco.com/c/es_mx/index.html" target="_blank"><img src="img/cisco.png" class="img-fluid" alt="cisco"></a>
+                </div>
+                <div class="col-4">
+                  <a href="http://latam.cyberark.com" target="_blank"><img src="img/cyberark.png" class="img-fluid" alt="cyberark"></a>
+                </div>
+            </div>
+            <div class="row justify-content-between">
+                <div class="col-4">
+                  <a href="https://www.emc.com/es-mx/index.htm" target="_blank"><img src="img/dell.png" class="img-fluid" alt="cisco"></a>
+                </div>
+                <div class="col-4">
+                  <a href="https://www.quest.com/mx-es" target="_blank"><img src="img/quest.png" class="img-fluid" alt="cyberark"></a>
+                </div>
+            </div>              
+            <div class="row justify-content-center">
+                <div class="col-4">
+                 <a href="https://www.sonicwall.com/mx-es" target="_blank"> <img src="img/sonic.png" class="img-fluid" alt="cisco"></a>
+                </div>
+                <div class="col-4">
+                  <a href="https://www.delphix.com" target="_blank"><img src="img/delphix.png" class="img-fluid" alt="cyberark"></a>
+                </div>
+            </div>                        
+                                                           
+                </div>
+            </div>
+       </div>
+      </section>     
+                       
+<!--------- Sección de Contacto ---------->   
+ 
+   <section id="contacto" class="mt-5">
+        <div class="container">
+          <h2 class="text-center pt-3">Contactanos</h2>
+                <hr class="line mb-5">
+            <div class="row bgc p-4 mb-3 wow fadeInUp" data-wow-offset="50">
+                <div class="col-12  col-md-6 flex-md-last py-3">
+                    <img src="img/Corporativo.jpg" class="img-fluid shadow" alt="">
+                </div>
+                <div class="col-12  col-md-6 flex-md-first py-3">
+                    <iframe id="mapa" class="shadow" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.3757348479626!2d-99.2059603846176!3d19.439360586880415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d2021a530576b7%3A0x5060770f062c702f!2sAv+Ej%C3%A9rcito+Nacional+843-B%2C+Granada%2C+11520+Ciudad+de+M%C3%A9xico%2C+CDMX!5e0!3m2!1ses-419!2smx!4v1489463629010" width="100%" height="315" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                </div>
+                 <div class="row">
+                     <div class="col-12  col-md-6 offset-md-1 flex-md-last py-3 wow fadeInUp" data-wow-offset="50">
+                        
+                        <p class="gris">Para mayores informes sobre nuestros productos o alguna línea de servicio en específico por favor envíanos tu información y te contactaremos a la brevedad posible</p>
+                    
+                     <div class="media pb-3">  
+                      <i class="fa fa-map-marker fa-2x mr-2 naranja"></i>
+                      <div class="media-body">
+                        <p class="text-muted roboto mt-0">Av Ejército Nacional 843 B piso 5 Corp. Antara 1, Granada, 11520 Ciudad de México, CDMX</p>
+                      </div>
+                     </div>
+                       
+                    <div class="media pb-3">  
+                      <i class="fa fa-phone  fa-2x mr-2 naranja"></i>
+                      <div class="media-body">
+                        <p class="text-muted roboto mt-0">(55) 5212.2053 | 5211.0685</p>
+                      </div>
+                     </div>
+                       
+                    <div class="media pb-3">  
+                      <i class="fa fa-envelope fa-2x mr-2 naranja"></i>
+                      <div class="media-body">
+                        <p class="text-muted roboto mt-0">contacto@gnetfire.com</p>
+                      </div>
+                     </div>
+                        
+                    </div>
+                    
+                <!-- Formulario de Contacto -->    
+                     <div class="col-12 col-md-4 offset-md-1 flex-md-first py-3 wow fadeInUp" data-wow-offset="50">
+                        <form method="post" action="mail.php">
+                      <div class="form-group">
+                        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre y Apellido *">
+                      </div>
+                      <div class="form-group">
+                        <input type="email" class="form-control" id="correo" name="email" placeholder="E-mail *">
+                      </div>
+                      <div class="form-group">
+                        <input type="phone" class="form-control" id="phone" name="tel" placeholder="Telefono *">
+                      </div>
+                       <div class="form-group">
+                        <textarea class="form-control" id="exampleTextarea" name="comentarios" rows="3" placeholder="Dejanos tus comentarios"></textarea>
+                      </div>
+                       <button type="submit" class="btn btn-warning">Enviar</button>
+                    </form>
+                    </div>
+                 </div>
+                
+      
+       </div>
+      </section>     
+
+<!--------- footer ---------->               
+    <footer class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-3 d-flex align-items-center">
+                    <img src="img/netfire_blanco.png" class="mx-auto d-block img-fluid" alt="">
+                </div>
+                <div class="col-6 col-md-3 pt-3">
+                    <p class="white roboto">Ejercito Nacional 843 B piso 5 Corp. Antara 1 Col. Granada Delegación Miguel Hidalgo C.P. 11520, Ciudad de México, CDMX.</p>
+                </div>
+                <div class="col-6 col-md-3 pt-3 border">
+                    <h6><a href="eventos.html" class="white">Eventos</a></h6>
+                    <h6><a href="clientes.html" class="white">Nuestros Clientes</a></h6>
+                    <h6><a href="reconocimientos.html" class="white">Reconocimientos de la Industria</a></h6>
+                </div>
+                <div class="col-6 col-md-3 pt-3 border">
+                    <h6><a href="soporte.html" class="white">Soporte Técnico</a></h6>
+                    <h6><a href="aviso.html" class="white">Aviso de Privacidad</a></h6>
+                </div>
+            </div>
+            <div class="row">
+            	<div class="col justify-content-end">
+            	<a href="https://www.linkedin.com/company/3622531" target="_blank">
+            		<img src="img/linkedin.png" alt="" class="d-block float-right mr-5" width="48">
+            	</a>
+            	</div>
+            </div>
+        </div>
+    </footer>
+  </body>
+</html>

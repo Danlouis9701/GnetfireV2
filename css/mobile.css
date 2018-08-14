@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Quicksand');
+
+
+html{
+    font-size: 12px;
+}
+body{
+/*  font-family: 'Quicksand', sans-serif; */    
+    font-family: 'Cinzel', roboto , helvetica neue, serif;
+    font-size: 1rem;
+}
+header {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+
+#video {
+    width: 100%;
+    height: 400px;
+    position: relative; 
+}
+
+#banner {
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/banner1.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/****** Bootstrap Reset *****/
+.navbar-inverse .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+}
+a:focus, a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.line {
+    width: 200px;
+    border-top-color: #d8600b;
+}
+
+.font-3 {
+    font-size: 1.4rem;
+}
+
+#aliados {
+    background-color: #d4d4d4;
+}
+
+.roboto {
+    font-family: 'roboto',helvetica neue;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.bgc {
+    background-color: #ebebeb;
+}
+
+.shadow {
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.3);
+}
+
+footer {
+    background-color: black;
+}
+
+.white {
+    color: #c3c3c3;
+    font-weight: 100;
+}
+
+.naranja {
+    color: #f0ad4e;
+}
+
+.gris {
+    color: #363636;
+    font-size: 1.3rem;
+}
+
+.border {
+    border-left: solid 1px #2a2a2a;
+}
+
+#inicio {
+    width: 100%;
+    height: 130px;
+}
+.cool{
+   background-color: rgba(0,0,0,0.75)!important;
+}
+.premios {
+    font-weight: 100;
+    line-height: 24px;
+}
+
+.min-h {
+    min-height: 300px;
+}
+
+
+/*====================================
+=  Funciones de Greensock mobile     =
+====================================*/
+
+#animationtxt-m{
+    width: 340px;
+    height: 250px;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    margin-top: -175px;
+    margin-left: -170px;
+    overflow: hidden;
+    text-align: center;
+    /*background-color: red;*/
+}
+.txtAnimate-m {
+    font:500 30px 'Helvetica Neue';
+    color:#195a78;
+    -webkit-text-stroke:1px rgba(255,255,255,0.7);
+    -moz-text-stroke:1px rgba(255,255,255,0.7);
+    -ms-text-stroke:1px rgba(255,255,255,0.7);
+    -o-text-stroke:1px rgba(255,255,255,0.7);
+    text-stroke:1px rgba(255,255,255,0.7);
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 10px 0;
+    position: absolute;
+    display: inline-block;
+    top: 10px;
+    left: 5%;
+}
+#txt2m,#txt3m,#txt5m{
+    padding-left: 20px;
+}
+
+
+/*====================================
+=  Funciones de Greensock Desktop       =
+====================================*/
+
+
+#animationtxt{
+    width: 340px;
+    height: 250px;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    margin-top: -125px;
+    margin-left: 0px;
+    overflow: hidden;
+    text-align: center;
+    /*background-color: red;*/
+}
+.txtAnimate {
+    font:400 30px 'Helvetica Neue';
+    color:#195a78;
+    -webkit-text-stroke:1px white;
+    -moz-text-stroke:1px white;
+    -ms-text-stroke:1px white;
+    -o-text-stroke:1px white;
+    text-stroke:1px white;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 10px 0;
+    position: absolute;
+    display: inline-block;
+    top: 10px;
+    left: 15px;
+}
+#txt2,#txt3,#txt5{
+    padding-left: 40px;
+}
+
+
+
+#nav {
+    width: 100%;
+    height: 60px;
+    background-color: #292b2c;
+    position: relative;
+    z-index: 1000;
+}
+
+.card-blue {
+    background-color: #6296da;
+    border-color: #6296da;
+}
+
+#soluciones {
+	border: solid 1px #CB761C;
+	border-radius: 5px;
+	color: #CB761C;
+}
+#soluciones:hover {
+	color: #fff;
+	background-color:#BC7203;
+}

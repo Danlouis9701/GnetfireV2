@@ -1,0 +1,57 @@
+/* Estilos de Administracion de la Plataforma */
+body{
+    background-color: #ededed;
+}
+
+#inicio2 {
+    height: 200px;
+    background-image: url(../img/header2.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-blue {
+    background-color: #d7e1ee;
+}
+.navbar-inverse .navbar-nav .nav-link {
+    color: rgb(54, 54, 54);
+}
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-toggler {
+    color: #333;
+}
+.navbar-inverse .navbar-toggler {
+    border-color: rgba(0,0,0,.1);
+}
+
+
+.bgc-white {
+    background-color: #fff;
+}
+
+.thead-default {
+    background-color: deepskyblue;
+}
+
+.bgc-blue {
+     background-color: #7dadda;
+}
+.blanco{
+    color: white;
+    font-size: 1.2rem;
+    
+}
+
+.blue2 {
+    color: #3163a0;
+}
+
+a:focus, a:hover {
+    color: deepskyblue;
+    text-decoration: underline;
+}
+#nav2 {
+    width: 100%;
+    height: 100%;
+    background-color:#d7e1ee;
+}
