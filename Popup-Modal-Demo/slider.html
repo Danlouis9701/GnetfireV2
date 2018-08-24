@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Popup Modal Demo</title>
+
+	<!-- LayerSlider CSS -->
+	<link rel="stylesheet" href="../../layerslider/css/layerslider.css">
+	
+	<!-- Google Fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Raleway:100,200,300,500">
+	
+	<!-- External libraries: jQuery & GreenSock -->
+	<script src="../../layerslider/js/jquery.js"></script>
+	<script src="../../layerslider/js/greensock.js"></script>
+
+	<!-- LayerSlider script files -->
+	<script src="../../layerslider/js/layerslider.transitions.js"></script>
+	<script src="../../layerslider/js/layerslider.kreaturamedia.jquery.js"></script>
+	
+	<!-- LayerSlider plugin files -->
+	<link rel="stylesheet" href="../../layerslider/plugins/popup/layerslider.popup.css">
+	<script src="../../layerslider/plugins/popup/layerslider.popup.js"></script>
+	
+</head>
+<body>
+
+	<!-- Slider HTML markup -->
+	<div class="ls-popup">
+		<div id="slider" style="width:640px;height:360px;margin:0 auto;margin-bottom: 0px;">
+			
+		
+		<!-- Slide 1-->
+		<div class="ls-slide" data-ls="timeshift:-500; kenburnsscale:1.2;">
+				<div style="z-index: 50;top:50%; left:-947px; text-align:initial; font-weight:400; font-style:normal; text-decoration:none; background:#01edf2; width:1000px; height:1000px; border-radius:50px;" class="ls-l" data-ls="showinfo:1; offsetxin:left; rotatein:45; static:forever; rotation:45;"></div>
+				<img width="1000" height="700" src="images/overear-solo2.png" class="ls-l" alt="" style="top:50px; left:0px; text-align:initial; font-weight:400; font-style:normal; text-decoration:none; width:393px; height:275px;" data-ls="showinfo:1; offsetyin:bottom; filterin:blur(5px); offsetyout:top; scalexout:0.5; scaleyout:0.5; filterout:blur(5px); loop:true; loopduration:700; loopstartat:transitioninstart + 600; loopeasing:easeOutQuint; loopscalex:1.3; loopscaley:1.3; loopcount:1;">
+				<p style="top:40px; left:100%; text-align:right; font-weight:300; font-style:normal; text-decoration:none; font-family:Raleway; font-size:52px; color:#ff0101; padding-right:20px;" class="ls-l" data-ls="showinfo:1; offsetyin:100lh; clipin:0 0 100% 0; offsetyout:100lh; clipout:0 0 100% 0;">Beats Solo3</p>
+				<p style="top:110px; left:491px; text-align:initial; font-weight:500; font-style:normal; text-decoration:none; font-family:'Open Sans'; font-size:17px; color:#ffffff; background:#202020; padding-top:1px; padding-bottom:1px; padding-right:10px; padding-left:10px;" class="ls-l" data-ls="showinfo:1; offsetyin:100lh; clipin:0 0 100% 0; offsetyout:100lh; clipout:0 0 100% 0;">GLOSS BLACK</p>
+				<p style="cursor:pointer;top:296px; left:392px; text-align:initial; font-weight:500; font-style:normal; text-decoration:none; font-family:'Open Sans'; font-size:17px; color:#ffffff; background:#202020; padding-top:10px; padding-bottom:10px; padding-right:60px; padding-left:60px; border-radius:30px;" class="ls-l ls-close-popup" data-ls="showinfo:1; hover:true; hoverdurationin:300; hoveropacity:1; hoverbgcolor:#4d4d4d; static:forever;">ADD TO CART</p>
+
+			</div>
+
+		</div>
+	</div>
+
+
+	<!-- Initializing the slider -->
+	<script type="text/javascript">
+
+		$(document).ready(function() {
+
+			
+			$('#slider').layerSlider({
+				sliderVersion: '6.5.0b2',
+				type: 'popup',
+				maxRatio: 1,
+				autoStart: false,
+				skin: 'v6',
+				globalBGColor: '#ffffff',
+				navPrevNext: false,
+				hoverPrevNext: false,
+				navStartStop: false,
+				navButtons: false,
+				showCircleTimer: false,
+				popupShowOnTimeout: 10,
+				popupShowOnce: false,
+				popupCloseButtonStyle: 'border: 0; border-radius: 0;',
+				popupStartSliderImmediately: true,
+				popupPositionHorizontal: 'right',
+				popupPositionVertical: 'bottom',
+				popupDistanceLeft: 20,
+				popupDistanceRight: 20,
+				popupDistanceTop: 20,
+				popupDistanceBottom: 20,
+				popupTransitionIn: 'spinx',
+				popupTransitionOut: 'elastic',
+				skinsPath: '../../layerslider/skins/',
+				plugins: ["popup"]
+			});
+		});
+
+	</script>
+</body>
+</html>

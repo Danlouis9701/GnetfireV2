@@ -18,129 +18,81 @@
     <!-- Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,regular,500,600,700">
 
-    <link rel="stylesheet" href="md-css/css/mobile.css">
-    <link rel="stylesheet" href="md-css/css/responsive.js">
-    <link rel="stylesheet" href="md-css/css/helper.js">
+    <link rel="stylesheet" href="md-css/mobile.css">
+    <link rel="stylesheet" href="md-css/responsive.css">
+    <link rel="stylesheet" href="md-css/helper.css">
 </head>
 
-<body>
+<body class="unique-color-dark">
+   
+   <section id="portada"></section>
+   
     <!-- Main navigation -->
     <header>
         <!--Navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark blue darken-4 fixed-top ">
             <div class="container">
-                <a class="navbar-brand" href="#">
-          <strong>MDB</strong>
-        </a>
+                <a class="navbar-brand" href="index.html">
+                  <img src="img/netfire_Nav.png" height="42" alt="">
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home
+                        <li>
+                            <a href="http://soluciones.gnetfire.com" target="_blank" class="btn btn-outline-info waves-effect">Soluciones</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Grupo Netfire
                 <span class="sr-only">(current)</span>
               </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href="eventos.html">Eventos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Profile</a>
+                            <a class="nav-link" href="clientes.html">Clientes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="reconocimientos.html">Reconocimientos</a>
                         </li>
                     </ul>
-                    <form class="form-inline">
-                        <div class="md-form mt-0">
-                            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                        </div>
-                    </form>
+
                 </div>
             </div>
         </nav>
-        <!-- Slider HTML markup -->
-        <div id="slider" style="width:1200px;height:600px;margin:0 auto;margin-bottom: 0px;">
-
-
-            <!-- Slide 1-->
-            <div class="ls-slide" data-ls="duration:4000; transition2d:4; kenburnsscale:1.2;">
-                <img width="1920" height="800" src="Hiking/images/hiking.jpg" class="ls-bg" alt="" />
-                <p style="font-weight:600;width:700px; font-family:Poppins; font-size:76px; line-height:76px; color:#333333; top:50%; left:78px; white-space:normal;" class="ls-l" data-ls="offsetyin:150; durationin:700; delayin:200; easingin:easeOutQuint; rotatexin:20; scalexin:1.4; offsetyout:600; durationout:400; parallaxlevel:0;">
-                    ADVENTURE
-                    <br> IS OUT THERE
-                </p>
-                <!--                <p style="font-weight:600;font-family:Poppins; font-size:20px; line-height:20px; color:#333333; top:279px; left:82px;" class="ls-l" data-ls="offsetyin:150; durationin:700; easingin:easeOutQuint; rotatexin:20; scalexin:1.4; offsetyout:600; durationout:400; parallaxlevel:0;">THE CLIMBERS SHOP</p>-->
-                <a class="ls-l" href="#" target="_self" data-ls="offsetyin:150; durationin:700; delayin:400; easingin:easeOutQuint; rotatexin:20; scalexin:1.4; offsetyout:600; durationout:400; hover:true; hoveropacity:1; hoverbgcolor:#e74c3c ; parallaxlevel:0;">
-                    <p style="cursor:pointer;padding-top:10px; padding-bottom:10px; font-family:Poppins; font-size:18px; top:506px; left:82px; background:rgba(0,0,0,0.7); color:#ffffff; padding-right:25px; padding-left:25px; line-height:28px; border-radius:2px;" class="">SHOP NOW</p>
-                </a>
-            </div>
-
-
-            <!-- Slide 2-->
-            <div class="ls-slide" data-ls="duration:4000; transition2d:4; timeshift:-200; kenburnsscale:1.2;">
-                <img width="1" height="1" src="Hiking/images/white.gif" class="ls-bg" alt="" />
-                <img width="600" height="600" src="Hiking/images/boot.png" class="ls-tn" alt="" />
-                <p style="font-weight:600;text-align:right !important;width:550px; font-family:Poppins; font-size:70px; line-height:76px; color:#333333; top:280px; left:560px; white-space:normal;" class="ls-l" data-ls="offsetyin:-50; durationin:600; delayin:50; easingin:easeOutBack; offsetyout:bottom; durationout:400; parallaxlevel:0;">
-                    JEFFERSON
-                    <br> HIKING BOOTS
-                </p>
-                <p style="font-weight:600;text-align:right;width:500px; font-family:Poppins; font-size:20px; line-height:20px; color:#E74C3C; top:230px; left:610px;" class="ls-l" data-ls="offsetyin:-50; durationin:600; easingin:easeOutBack; offsetyout:bottom; durationout:400; parallaxlevel:0;">FALL 2016'S SALES</p>
-                <a class="ls-l" href="#" target="_self" data-ls="offsetyin:-50; durationin:600; delayin:150; easingin:easeOutBack; offsetyout:bottom; durationout:400; hover:true; hoveropacity:1; hoverbgcolor:#e74c3c ; parallaxlevel:0;">
-                    <p style="cursor:pointer;padding-top:10px; padding-bottom:10px; font-family:Poppins; font-size:18px; top:466px; left:968px; padding-right:25px; padding-left:25px; line-height:28px; text-align:initial; font-weight:400; font-style:normal; text-decoration:none; color:#ffffff; background:rgba(0,0,0,0.7); border-radius:2px; cursor:pointer;" class=" ls-button">BUY NOW</p>
-                </a>
-                <img width="600" height="600" src="Hiking/images/boot.png" class="ls-l" alt="" style="top:50%; left:97px;" data-ls="offsetyin:-100; durationin:750; easingin:easeOutBack; rotatein:6; offsetyout:bottom; durationout:400; parallaxlevel:0;">
-                <p style="text-align:center;font-weight:600; letter-spacing:-1px;width:200px; height:185px; padding-top:15px; font-family:Poppins; font-size:60px; line-height:200px; color:#ffffff; background:#E74C3C; border-radius:50%; top:87px; left:324px;" class="ls-l" data-ls="offsetyin:-300; durationin:750; delayin:600; easingin:easeOutBack; rotatein:180; offsetyout:bottom; durationout:400; parallaxlevel:0;">$219</p>
-                <p style="font-family:Poppins; font-size:18px; line-height:18px; color:#ffffff; top:155px; left:365px;" class="ls-l" data-ls="offsetyin:-300; durationin:750; delayin:600; easingin:easeOutBack; rotatein:180; transformoriginin:50% 100% 0; offsetyout:bottom; durationout:400; parallaxlevel:0;">STARTS FROM</p>
-            </div>
-
-
-            <!-- Slide 3-->
-            <div class="ls-slide" data-ls="duration:6000; transition2d:4; timeshift:-200; kenburnsscale:1.2;">
-                <img width="1" height="1" src="Hiking/images/white.gif" class="ls-bg" alt="" />
-                <img width="600" height="600" src="Hiking/images/boot.png" class="ls-tn" alt="" />
-                <p style="font-weight:600;text-align:right !important;width:550px; font-family:Poppins; font-size:70px; line-height:76px; color:#333333; top:50%; left:60px; white-space:normal;" class="ls-l" data-ls="offsetyin:-50; durationin:600; delayin:50; easingin:easeOutBack; offsetyout:bottom; durationout:400; easingout:easeInOutBack; parallaxlevel:0;">
-                    32-LITER
-                    <br> WATERPROOF BACKPACK
-                </p>
-                <img width="600" height="600" src="Hiking/images/backpack-brown.png" class="ls-l" alt="" style="top:50%; left:580px;" data-ls="offsetyin:-300; durationin:750; easingin:easeOutBack; rotatein:10; durationout:700; startatout:transitioninend + 1500; easingout:easeInBack; scalexout:0.4; scaleyout:0.4; parallaxlevel:0;">
-                <img width="600" height="600" src="Hiking/images/backpack-yellow.png" class="ls-l" alt="" style="top:50%; left:580px;" data-ls="offsetxin:300; delayin:3000; easingin:easeOutExpo; scalexin:0.8; scaleyin:0.8; offsetyout:bottom; durationout:400; easingout:easeInOutBack; parallaxlevel:0;">
-                <!--                <p style="font-weight:600;text-align:right;width:500px; font-family:Poppins; font-size:20px; line-height:20px; color:#E74C3C; top:241px; left:78px;" class="ls-l" data-ls="offsetyin:-50; durationin:600; easingin:easeOutBack; offsetyout:bottom; durationout:400; easingout:easeInOutBack; parallaxlevel:0;">FALL 2016'S SALES</p>-->
-                <a class="ls-l" href="#" target="_self" data-ls="offsetyin:-50; durationin:600; delayin:150; easingin:easeOutBack; offsetyout:bottom; durationout:400; easingout:easeInOutBack; hover:true; hoveropacity:1; hoverbgcolor:#e74c3c ; parallaxlevel:0;">
-                    <p style="cursor:pointer;padding-top:10px; padding-bottom:10px; font-family:Poppins; font-size:18px; top:556px; left:473px; padding-right:25px; padding-left:25px; line-height:28px; text-align:initial; font-weight:400; font-style:normal; text-decoration:none; color:#ffffff; background:rgba(0,0,0,0.7); border-radius:2px; cursor:pointer;" class=" ls-button">BUY NOW</p>
-                </a>
-                <p style="text-align:center;font-weight:600; letter-spacing:-1px;width:200px; height:185px; padding-top:15px; font-family:Poppins; font-size:60px; line-height:200px; color:#ffffff; background:#E74C3C; border-radius:50%; top:67px; left:609px;" class="ls-l" data-ls="offsetxin:100; offsetyin:-60; durationin:700; delayin:1000; easingin:easeOutBack; rotatexin:-30; rotateyin:70; scalexin:2; scaleyin:2; offsetyout:bottom; durationout:400; easingout:easeInOutBack; parallaxlevel:0;">$89</p>
-                <p style="font-family:Poppins; font-size:18px; line-height:18px; color:#ffffff; top:127px; left:639px;" class="ls-l" data-ls="offsetxin:100; offsetyin:-60; durationin:700; delayin:1000; easingin:easeOutBack; rotatexin:-30; rotateyin:70; scalexin:2; scaleyin:2; transformoriginin:50% 100% 0; offsetyout:bottom; durationout:400; easingout:easeInOutBack; parallaxlevel:0;">IN MORE COLORS</p>
-            </div>
-        </div>
-
-
+  
 
     </header>
     <!-- Main navigation -->
-    <section id="servicios">
+    <section id="servicios" class="py-5 mb-5">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-lg-10">
                     <!-- Section: Blog v.1 -->
-
-
+                    
                     <!-- Section heading -->
-                    <h2 class="h1-responsive font-weight-bold text-center my-5">Computo Empresarial, Almacenamiento y Redes</h2>
+                    <img src="img/nube.png" class="d-block mx-auto my-5" alt="">
+                    <h2 class="h1-responsive font-weight-bold text-center white-text my-5">Administración de la Plataforma Microsoft <br> y Monitoreo del Desempeño</h2>
                     <!-- Section description -->
-                    <p class="text-center w-responsive mx-auto mb-5">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<!--                    <p class="text-center w-responsive mx-auto mb-5 white-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>-->
 
                     <div class="card p-5 blue darken-3">
                         <!-- Grid row -->
-                        <div class="row">
+                        <div class="row justify-content-center">
 
                             <!-- Grid column -->
-                            <div class="col-md-6 col-lg-5">
+                            <div class="col-9 col-sm-10 col-md-6 col-lg-5">
 
                                 <!-- Featured image -->
-                                <div class="view rounded z-depth-2 mb-lg-0 mb-4">
-                                    <img class="img-fluid" src="md-img/ucss.png" alt="Sample image">
+                                <div class="view rounded z-depth-2 mb-lg-0 mb-4 text-center">
+                                    <img class="img-fluid mx-auto d-block" src="md-img/ucss.png" alt="Sample image">
                                     <a>
                                         <div class="mask flex-center rgba-red-slight">
-                                            <h5 class="white-text text-center">Análisis de las Comunicaciones Unificadas</h5>
+                                            <h5 class="white-text text-center">Análisis de las Comunicaciones <br> Unificadas</h5>
                                         </div>
                                     </a>
                                 </div>
@@ -150,119 +102,286 @@
                             <!-- Grid column -->
                             <div class="col-md-6 col-lg-7">
 
-                                <div class="row"><!-- Category -->
-                                    
-                                        <div class="col-12">
-                                            <img src="md-img/quest_logo.png" class="mb-4 float-right" alt="">
-                                        </div>
-                                    
-                                    
-                                     <div class="col-12">
-                                               <!-- Post title -->
-                                            <h3 class="white-text mb-3"><strong>UCSS</strong></h3>
-                                            <!-- Excerpt -->
-                                            <p class="text-justify white-text">Con el Análisis de las comunicaciones unificadas, podrá mejorar y proteger su empresa al convertir los datos atrapados en sus sistemas de comunicaciones en información comprensible, utilizable y de interés acerca de las actividades del personal, los procesos de la empresa y las necesidades de la infraestructura de UC. UC Analytics utiliza herramientas eficaces de generación de informes de Lync y Skype Empresarial y de administración de Exchange para ofrecer al área de TI y a los usuarios inteligencia para:</p>
-                                            <!-- Post data -->
-                                            <p>by <a><strong>Carine Fox</strong></a>, 19/08/2018</p>
-                                            <!-- Read more button -->
-                                            <a class="btn btn-success btn-md">Read more</a>
-                                        </div>
+                                <div class="row">
+                                    <!-- Category -->
+
+                                    <div class="col-12">
+                                        <img src="md-img/quest_logo.png" class="mb-4 float-right" alt="">
                                     </div>
+
+
+                                    <div class="col-12">
+                                        <!-- Post title -->
+                                        <h3 class="white-text mb-3"><strong>UCSS</strong></h3>
+                                        <!-- Excerpt -->
+                                        <p class="text-justify white-text roboto100">Con el Análisis de las comunicaciones unificadas, podrá mejorar y proteger su empresa al convertir los datos atrapados en sus sistemas de comunicaciones en información comprensible, utilizable y de interés acerca de las actividades del personal, los procesos de la empresa y las necesidades de la infraestructura de UC. UC Analytics utiliza herramientas eficaces de generación de informes de Lync y Skype Empresarial y de administración de Exchange para ofrecer al área de TI y a los usuarios inteligencia para:</p>
+
+                                    </div>
+                                </div>
                             </div>
                             <!-- Grid column -->
 
                         </div>
                         <!-- Grid row -->
                     </div>
-                    <hr class="my-5">
+                    
+                    <hr class="my-5 light-blue lighten-4">
+                    
+                    
+                    <div class="card p-5 indigo darken-3">
+                        <!-- Grid row -->
+                        <div class="row justify-content-center">
 
-                    <!-- Grid row -->
-                    <div class="row">
+                            <!-- Grid column -->
+                            <div class="col-9 col-sm-10 col-md-6 col-lg-5">
 
-                        <!-- Grid column -->
-                        <div class="col-lg-7">
-
-                            <!-- Category -->
-                            <a href="#!" class="pink-text">
-                                <h6 class="font-weight-bold mb-3"><i class="fa fa-image pr-2"></i>Lifestyle</h6>
-                            </a>
-                            <!-- Post title -->
-                            <h3 class="font-weight-bold mb-3"><strong>Title of the news</strong></h3>
-                            <!-- Excerpt -->
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
-                            <!-- Post data -->
-                            <p>by <a><strong>Carine Fox</strong></a>, 14/08/2018</p>
-                            <!-- Read more button -->
-                            <a class="btn btn-pink btn-md mb-lg-0 mb-4">Read more</a>
-
-                        </div>
-                        <!-- Grid column -->
-
-                        <!-- Grid column -->
-                        <div class="col-lg-5">
-
-                            <!-- Featured image -->
-                            <div class=" overlay rounded z-depth-2">
-                                <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/img%20(34).jpg" alt="Sample image">
-                                <a>
-                                    <div class="mask rgba-white-slight"></div>
-                                </a>
+                                <!-- Featured image -->
+                                <div class="view rounded z-depth-2 mb-lg-0 mb-4 text-center">
+                                    <img class="img-fluid mx-auto d-block" src="md-img/ucss.png" alt="Sample image">
+                                    <a>
+                                        <div class="mask flex-center rgba-red-slight">
+                                            <h5 class="white-text text-center">Mejora del desempeño de<br> sus Aplicaciones</h5>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
+                            <!-- Grid column -->
 
-                        </div>
-                        <!-- Grid column -->
+                            <!-- Grid column -->
+                            <div class="col-md-6 col-lg-7">
 
-                    </div>
-                    <!-- Grid row -->
+                                <div class="row">
+                                    <!-- Category -->
 
-                    <hr class="my-5">
+                                    <div class="col-12">
+                                        <img src="md-img/quest_logo.png" class="mb-4 float-right" alt="">
+                                    </div>
 
-                    <!-- Grid row -->
-                    <div class="row">
 
-                        <!-- Grid column -->
-                        <div class="col-lg-5">
-
-                            <!-- Featured image -->
-                            <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
-                                <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/img (28).jpg" alt="Sample image">
-                                <a>
-                                    <div class="mask rgba-white-slight"></div>
-                                </a>
+                                    <div class="col-12">
+                                        <!-- Post title -->
+                                        <h3 class="white-text mb-3"><strong>Foglight</strong></h3>
+                                        <!-- Excerpt -->
+                                        <p class="text-justify white-text roboto100">Gestiona la experiencia del usuario desde varias perspectivas y le permite administrar SLA de rendimiento mediante la detección, el aislamiento y la resolución de problemas de tiempo de respuesta y la captura y reproducción de interacciones reales con el usuario para entender cómo las afectan el diseño y la configuración de aplicaciones. Además, controla y analiza conversiones de transacciones y metadatos de sesiones, descubre patrones de compra/preferencias y determina por qué los usuarios abandonaron transacciones.</p>
+                                        <ul class="white-text roboto100">
+                                            <li>Disminuir el costo operativo de la administración de los entornos de TI.</li>
+                                            <li>Mitigar el riesgo del tiempo de inactividad mientras se mejora la productividad del persona.l</li>
+                                            <li>Mejorar el cumplimiento de aplicaciones, base de datos y SLA de los usuarios finales de infraestructura.</li>
+                                            <li>Reducir los incidentes y el tiempo promedio de resolución (MTTR) de incidentes.</li>
+                                            <li>Ofrecer visibilidad a TI y a los interesados en el negocio.</li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
+                            <!-- Grid column -->
 
                         </div>
-                        <!-- Grid column -->
-
-                        <!-- Grid column -->
-                        <div class="col-lg-7">
-
-                            <!-- Category -->
-                            <a href="#!" class="indigo-text">
-                                <h6 class="font-weight-bold mb-3"><i class="fa fa-suitcase pr-2"></i>Travels</h6>
-                            </a>
-                            <!-- Post title -->
-                            <h3 class="font-weight-bold mb-3"><strong>Title of the news</strong></h3>
-                            <!-- Excerpt -->
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro qui dolorem ipsum quia sit amet.</p>
-                            <!-- Post data -->
-                            <p>by <a><strong>Carine Fox</strong></a>, 11/08/2018</p>
-                            <!-- Read more button -->
-                            <a class="btn btn-indigo btn-md">Read more</a>
-
-                        </div>
-                        <!-- Grid column -->
-
+                        <!-- Grid row -->
                     </div>
-                    <!-- Grid row -->
+                    
+                    <hr class="my-5 light-blue lighten-4">
+                    
+                    
+                    <div class="card p-5 blue darken-3">
+                        <!-- Grid row -->
+                        <div class="row justify-content-center">
 
-                    <!-- Section: Blog v.1 -->
+                            <!-- Grid column -->
+                            <div class="col-9 col-sm-10 col-md-6 col-lg-5">
+
+                                <!-- Featured image -->
+                                <div class="view rounded z-depth-2 mb-lg-0 mb-4 text-center">
+                                    <img class="img-fluid mx-auto d-block" src="md-img/ucss.png" alt="Sample image">
+                                    <a>
+                                        <div class="mask flex-center rgba-red-slight">
+                                            <h5 class="white-text text-center">Monitoreo de AD para mayor<br> seguridad y cumplimento</h5>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="col-md-6 col-lg-7">
+
+                                <div class="row">
+                                    <!-- Category -->
+
+                                    <div class="col-12">
+                                        <img src="md-img/quest_logo.png" class="mb-4 float-right" alt="">
+                                    </div>
+
+
+                                    <div class="col-12">
+                                        <!-- Post title -->
+                                        <h3 class="white-text mb-3"><strong>Change Auditor para Directorio Activo</strong></h3>
+                                        <!-- Excerpt -->
+                                        <p class="text-justify white-text roboto100">Con el Análisis de las comunicaciones unificadas, podrá mejorar y proteger su empresa al convertir los datos atrapados en sus sistemas de comunicaciones en información comprensible, utilizable y de interés acerca de las actividades del personal, los procesos de la empresa y las necesidades de la infraestructura de UC. UC Analytics utiliza herramientas eficaces de generación de informes de Lync y Skype Empresarial y de administración de Exchange para ofrecer al área de TI y a los usuarios inteligencia para:ChangeAuditor brinda informes de cumplimiento y seguridad significativos y fáciles de entender sobre la marcha. Con los informes de cumplimiento de la biblioteca incorporada y la posibilidad de personalizar informes es fácil probar el cumplimiento con los estándares de SOX, HIPAA, Estándares de Seguridad para Datos de la Industria de Tarjetas de Pago (PCI DSS), la Ley Federal de Administración de Seguridad de la Información (FISMA) y SAS 70, entre otros.</p>
+                                        <ul class="white-text roboto100">
+                                            <li>ChangeAuditor lo ayuda a: Lograr sus desafíos de auditoría de requerimientos complejos con los informes incorporados para SOX, PCI DSS, HIPAA, FISMA, SAS 70 y más.</li>
+                                            <li>Simplificar el control de TI para prevenir las violaciones de seguridad internas y externas. Mejorar el rendimiento en la empresa con el software para la gestión del cambio que ofrece un análisis detallado antes y después con controles potentes.</li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Grid column -->
+
+                        </div>
+                        <!-- Grid row -->
+                    </div>
+                    
+                    <hr class="my-5 light-blue lighten-4">
+                    
+                    <div class="card p-5 indigo darken-3">
+                        <!-- Grid row -->
+                        <div class="row justify-content-center">
+
+                            <!-- Grid column -->
+                            <div class="col-9 col-sm-10 col-md-6 col-lg-5">
+
+                                <!-- Featured image -->
+                                <div class="view rounded z-depth-2 mb-lg-0 mb-4 text-center">
+                                    <img class="img-fluid mx-auto d-block" src="md-img/ucss.png" alt="Sample image">
+                                    <a>
+                                        <div class="mask flex-center rgba-red-slight">
+                                            <h5 class="white-text text-center">Migración hacia Office 365</h5>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="col-md-6 col-lg-7">
+
+                                <div class="row">
+                                    <!-- Category -->
+
+                                    <div class="col-12">
+                                        <img src="md-img/quest_logo.png" class="mb-4 float-right" alt="">
+                                    </div>
+
+
+                                    <div class="col-12">
+                                        <!-- Post title -->
+                                        <h3 class="white-text mb-3"><strong>On Demand Migration for Email</strong></h3>
+                                        <!-- Excerpt -->
+                                        <p class="text-justify white-text roboto100">On Demand Migration for Email le permite migrar de forma segura usuarios y datos a plataformas de Office 365, Exchange en las instalaciones o Exchange alojado sin tener que instalar o mantener el software de migración.</p>
+                                        <p class="text-justify white-text roboto100">Con la capacidad de migrar de manera simultánea múltiples usuarios desde un única consola mientras mueve de forma segura el correo electrónico, los calendarios y las carpetas, podrá lograr lo siguiente:</p>
+                                        
+                                        <ul class="white-text roboto100">
+                                            <li>Filtrar rápidamente datos no deseados para reducir plazos de migración.</li>
+                                            <li>Evitar la pérdida de datos con la preservación automatizada de adjuntos de gran tamaño.</li>
+                                            <li>Monitorear todo el progreso de la migración con informes de progreso para garantizar la seguridad de sus datos</li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Grid column -->
+
+                        </div>
+                        <!-- Grid row -->
+                    </div>
+                    
+                    <hr class="my-5 light-blue lighten-4">
+                    
+                    <div class="card p-5 blue darken-3">
+                        <!-- Grid row -->
+                        <div class="row justify-content-center">
+
+                            <!-- Grid column -->
+                            <div class="col-9 col-sm-10 col-md-6 col-lg-5">
+
+                                <!-- Featured image -->
+                                <div class="view rounded z-depth-2 mb-lg-0 mb-4 text-center">
+                                    <img class="img-fluid mx-auto d-block" src="md-img/ucss.png" alt="Sample image">
+                                    <a>
+                                        <div class="mask flex-center rgba-red-slight">
+                                            <h5 class="white-text text-center">Cumplimiento y generación de<br> informes de seguridad</h5>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="col-md-6 col-lg-7">
+
+                                <div class="row">
+                                    <!-- Category -->
+
+                                    <div class="col-12">
+                                        <img src="md-img/quest_logo.png" class="mb-4 float-right" alt="">
+                                    </div>
+
+
+                                    <div class="col-12">
+                                        <!-- Post title -->
+                                        <h3 class="white-text mb-3"><strong>Enterprise Reporter</strong></h3>
+                                        <!-- Excerpt -->
+                                        <p class="text-justify white-text roboto100">Es una solución escalable para la auditoría, el análisis y la presentación de informes sobre la configuración de Microsoft, Active Directory, Windows Server y SQL Server en toda la empresa.</p>
+                                        <p class="text-justify white-text roboto100">Herramientas para informes predefinidas y customizables que permiten realizar facilmente evaluaciones de cumplimiento y de seguridad, análisis previos y posteriores a la migración, entre otras que ayuda a la planificación estratégica de TI y gestión proactiva para las redes basadas en Microsoft Window.</p>
+                                        
+                                        <ul class="white-text roboto100">
+                                            <li>Visibilidad Cumplimiento y seguridad.</li>
+                                            <li>Evaluación de accesos en tiempo real.</li>
+                                            <li>Análisis previos y posteriores a migraciones.</li>
+                                            <li>Revisión de cambios.</li>
+                                            <li>Recopilación de datos escalables.</li>
+                                            <li>Almacenamiento eficiente.</li>
+                                            <li>Reportes automatizados de flujo de trabajo.</li>
+                                            <li>Separación de funciones.</li>
+                                            <li>Reportes customizables.</li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Grid column -->
+
+                        </div>
+                        <!-- Grid row -->
+                    </div>
+                    
+
+                <!-- Section: Blog v.1 -->
                 </div>
             </div>
         </div>
     </section>
 
-
+    
+<!--------- footer ---------->               
+    <footer class="py-3 blue darken-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-3 d-flex align-items-center">
+                    <img src="img/netfire_blanco.png" class="mx-auto d-block img-fluid" alt="">
+                </div>
+                <div class="col-6 col-md-3 pt-3">
+                    <p class="white-text roboto">Ejercito Nacional 843 B piso 5 Corp. Antara 1 Col. Granada Delegación Miguel Hidalgo C.P. 11520, Ciudad de México, CDMX.</p>
+                </div>
+                <div class="col-6 col-md-3 pt-3 border-left">
+                    <h6><a href="eventos.html" class="white-text">Eventos</a></h6>
+                    <h6><a href="clientes.html" class="white-text">Nuestros Clientes</a></h6>
+                    <h6><a href="reconocimientos.html" class="white-text">Reconocimientos de la Industria</a></h6>
+                </div>
+                <div class="col-6 col-md-3 pt-3 border-left">
+                    <h6><a href="soporte.html" class="white-text">Soporte Técnico</a></h6>
+                    <h6><a href="aviso.html" class="white-text">Aviso de Privacidad</a></h6>
+                </div>
+            </div>
+            <div class="row">
+            	<div class="col justify-content-end">
+            	<a href="https://www.linkedin.com/company/3622531" target="_blank">
+            		<img src="img/linkedin.png" alt="" class="d-block float-right mr-5" width="48">
+            	</a>
+            	</div>
+            </div>
+        </div>
+    </footer>
 
 
     <!-- JQuery -->
@@ -274,18 +393,13 @@
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.8/js/mdb.min.js"></script>
     <!-- External libraries: jQuery & GreenSock -->
-    <script src="layerslider/js/jquery.js"></script>
     <script src="layerslider/js/greensock.js"></script>
-
     <!-- LayerSlider script files -->
     <script src="layerslider/js/layerslider.transitions.js"></script>
     <script src="layerslider/js/layerslider.kreaturamedia.jquery.js"></script>
 
-
-
-    <script src="js/custom.js"></script>
-    <script src="js/animatecustom.js"></script>
-
+    <script src="md-js/custom.js"></script>
+    <script src="md-js/animatecustom.js"></script>
 
     <!-- Initializing the slider -->
     <script type="text/javascript">
